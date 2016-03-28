@@ -13,9 +13,13 @@
 (require 'cask "~/.cask/cask.el")
 (cask-initialize)
 (require 'pallet)
+(pallet-mode t)
+
 (add-hook 'ruby-mode-hook 'robe-mode)
 
 (load-theme 'monokai t)
+(require 'powerline)
+(powerline-default-theme)
 
 (add-to-list 'load-path "~/.emacs.d/custom")
 (load "03auto-complete.el")
