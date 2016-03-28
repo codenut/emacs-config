@@ -7,7 +7,7 @@
   (package-initialize))
 
 (global-linum-mode t)
-
+(global-set-key "\C-c\C-y" "\C-a\C- \C-n\M-w\C-y")
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 (setq inhibit-startup-message t)
@@ -30,3 +30,6 @@
 (load "05neotree.el")
 (load "06projectile.el")
 (load "07web-mode.el")
+(load "09ruby-mode.el")
+
+(add-hook 'ruby-mode-hook 'robe-mode)
