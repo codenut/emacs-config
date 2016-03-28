@@ -17,6 +17,7 @@
 (depends-on "powerline")
 (depends-on "projectile")
 (depends-on "robe")
+(depends-on "rvm")
 (depends-on "s")
 (depends-on "shut-up")
 (depends-on "smartparens")
