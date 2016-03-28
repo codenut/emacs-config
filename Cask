@@ -8,6 +8,7 @@
 (depends-on "f")
 (depends-on "grizzl")
 (depends-on "inf-ruby")
+(depends-on "jdee")
 (depends-on "monokai-theme")
 (depends-on "neotree")
 (depends-on "package-build")
