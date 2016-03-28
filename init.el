@@ -6,6 +6,8 @@
    t)
   (package-initialize))
 
+(global-linum-mode t)
+
 (tool-bar-mode -1)
 (setq inhibit-startup-message t)
 (setq x-select-enable-clipboard t)
