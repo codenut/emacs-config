@@ -1,0 +1,11 @@
+(source "gnu" "http://elpa.gnu.org/packages/")
+(source "melpa" "http://melpa.org/packages/")
+
+(depends-on "cask")
+(depends-on "dash")
+(depends-on "epl")
+(depends-on "f")
+(depends-on "package-build")
+(depends-on "pallet")
+(depends-on "s")
+(depends-on "shut-up")
