@@ -1,4 +1,4 @@
-(source "gnu" "http://elpa.gnu.org/packages/")
+I(source "gnu" "http://elpa.gnu.org/packages/")
 (source "melpa" "http://melpa.org/packages/")
 
 (depends-on "ag")
@@ -28,5 +28,6 @@
 (depends-on "s")
 (depends-on "shut-up")
 (depends-on "smartparens")
+(depends-on "smooth-scrolling")
 (depends-on "web-mode")
 (depends-on "zenburn-theme")
