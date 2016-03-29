@@ -12,11 +12,15 @@
 (menu-bar-mode -1)
 (setq inhibit-startup-message t)
 (setq x-select-enable-clipboard t)
+(setq set-frame-font "InconsolataGo 8")
 
 (require 'cask "~/.cask/cask.el")
 (cask-initialize)
 (require 'pallet)
 (pallet-mode t)
+(global-set-key (kbd "M-x") 'helm-M-x)
+(global-set-key (kbd "\C-c\C-f") 'helm-do-ag-project-root)
+(global-git-gutter-mode +1)
 
 (add-hook 'ruby-mode-hook 'robe-mode)
 
