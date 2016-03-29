@@ -36,6 +36,7 @@
 (load "05neotree.el")
 (load "06projectile.el")
 (load "07web-mode.el")
+(load "08jdee.el")
 (load "09ruby-mode.el")
 
 (add-hook 'ruby-mode-hook 'robe-mode)
