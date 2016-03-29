@@ -1,6 +1,7 @@
 (source "gnu" "http://elpa.gnu.org/packages/")
 (source "melpa" "http://melpa.org/packages/")
 
+(depends-on "ag")
 (depends-on "auto-complete")
 (depends-on "cask")
 (depends-on "dash")
