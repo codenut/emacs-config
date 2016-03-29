@@ -14,6 +14,7 @@
 (depends-on "helm-ag")
 (depends-on "inf-ruby")
 (depends-on "jdee")
+(depends-on "moe-theme")
 (depends-on "monokai-theme")
 (depends-on "neotree")
 (depends-on "package-build")
@@ -28,3 +29,4 @@
 (depends-on "shut-up")
 (depends-on "smartparens")
 (depends-on "web-mode")
+(depends-on "zenburn-theme")
