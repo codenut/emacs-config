@@ -10,9 +10,11 @@
 (global-set-key "\C-c\C-y" "\C-a\C- \C-n\M-w\C-y")
 (tool-bar-mode -1)
 (menu-bar-mode -1)
+(scroll-bar-mode -1)
 (setq inhibit-startup-message t)
 (setq x-select-enable-clipboard t)
-(setq set-frame-font "InconsolataGo 8")
+(set-face-attribute 'default nil
+		    :family "InconsolataGo" :height 120 :weight 'normal)
 
 (require 'cask "~/.cask/cask.el")
 (cask-initialize)
@@ -24,7 +26,11 @@
 
 (add-hook 'ruby-mode-hook 'robe-mode)
 
-(load-theme 'monokai t)
+(load-theme 'zenburn t)
+
+(require 'smooth-scrolling)
+(smooth-scrolling-mode +1)
+
 (require 'powerline)
 (powerline-default-theme)
 
