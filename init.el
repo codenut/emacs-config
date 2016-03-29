@@ -32,8 +32,15 @@
 (require 'powerline)
 (powerline-moe-theme)
 
+;(require 'mo-theme)
+;(load-theme 'zenburn t)
+
+(add-to-list 'custom-theme-load-path "~/.emacs.d/.cask/24.5.1/elpa/moe-theme-20160322.115/")
+(add-to-list 'load-path "~/.emacs.d/.cask/24.5.1/elpa/moe-theme-20160322.115/")
+(require 'moe-theme)
+(load-theme 'moe-dark t)
+
 (add-to-list 'load-path "~/.emacs.d/custom")
-(load "02theme.el")
 (load "03auto-complete.el")
 (load "04smartparens.el")
 (load "05neotree.el")
