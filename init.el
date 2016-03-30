@@ -1,4 +1,4 @@
-					;emacs-version: 24.5.1
+;emacs-version: 24.5.1
 
 (when (>= emacs-major-version 24)
   (require 'package)
