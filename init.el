@@ -20,6 +20,11 @@
 (set-face-attribute 'default nil
 		    :family "InconsolataGo" :height 120 :weight 'normal)
 
+(setq echo-keystrokes 0.1
+      use-dialog-box nil
+      visible-bell t)
+(show-paren-mode t)
+
 (require 'cask "~/.cask/cask.el")
 (cask-initialize)
 (require 'pallet)
