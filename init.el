@@ -13,6 +13,8 @@
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 (scroll-bar-mode -1)
+(setq make-backup-files nil)
+
 (setq inhibit-startup-message t)
 (setq x-select-enable-clipboard t)
 (set-face-attribute 'default nil
@@ -24,6 +26,8 @@
 (pallet-mode t)
 (global-set-key (kbd "M-x") 'helm-M-x)
 (global-set-key (kbd "\C-c\C-f") 'helm-do-ag-project-root)
+(global-set-key (kbd "RET") 'newline-and-indent)
+
 (global-git-gutter-mode +1)
 
 (add-hook 'ruby-mode-hook 'robe-mode)
