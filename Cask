@@ -1,4 +1,4 @@
-I(source "gnu" "http://elpa.gnu.org/packages/")
+(source "gnu" "http://elpa.gnu.org/packages/")
 (source "melpa" "http://melpa.org/packages/")
 
 (depends-on "ag")
